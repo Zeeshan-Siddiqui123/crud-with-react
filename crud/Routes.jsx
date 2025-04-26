@@ -9,11 +9,12 @@ export const routes = [
         screen: <Read />
     },
     {
-        path: '/createuser',
-        screen: <CreateUser />
-    },
-    {
         path: '/updateuser',
         screen: <UpdateUser />
+    },
+    {
+        path: '/createuser',
+        screen: <CreateUser />
     }
+   
 ]
